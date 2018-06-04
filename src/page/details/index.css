@@ -1,0 +1,29 @@
+.discern-details-control {
+  position: relative;
+  height: 100%;
+}
+.discern-details-control .callbacks {
+  position: fixed;
+  top: 0.4rem;
+  right: 0.4rem;
+  z-index: 999;
+  padding: 0.13333333rem 0.29333333rem;
+  margin: 0;
+  height: 0.72rem;
+  border: none;
+  border-radius: 0.33333333rem;
+  font-size: 0.34666667rem;
+  color: #fff;
+  background-color: #797979;
+  text-align: center;
+  cursor: pointer;
+}
+.discern-details-control .callbacks:focus {
+  outline: none;
+}
+.discern-details-control .discern-details-control-content {
+  width: 100%;
+  padding: 0.37333333rem 0.42666667rem;
+  color: #707070;
+  overflow: hidden;
+}

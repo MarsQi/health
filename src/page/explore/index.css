@@ -1,0 +1,99 @@
+.explore {
+  margin: 0.29333333rem 0.42666667rem;
+  margin-top: 0px;
+  background: #f5f5f3;
+}
+.explore .titTop {
+  overflow: hidden;
+  background: #f5f5f3;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 6px;
+  font-size: 0.4rem;
+  color: #656565;
+  font-weight: 700;
+}
+.explore .titTop .span1 {
+  float: left;
+}
+.explore .titTop .span2 {
+  float: right;
+}
+.explore .topEcharts {
+  background-color: #fff;
+  border-radius: 6px;
+}
+.explore .topEcharts .echart1 {
+  width: 100%;
+}
+.explore .topEcharts .echart1 .title {
+  padding-top: 0.26666667rem;
+  font-size: 0.4rem;
+  color: #656565;
+  font-weight: 700;
+}
+.explore .topEcharts .echart1 .title .box {
+  position: relative;
+  height: 5.33333333rem;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.explore .topEcharts .echart1 .title .box .picture {
+  width: 5.86666667rem;
+  height: 5.33333333rem;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.93333333rem;
+}
+.explore .topEcharts .echart1 .title .titBot {
+  font-weight: 500;
+  font-size: 0.4rem;
+  color: #656565;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 0.24rem;
+  border-bottom: 2px solid #141414;
+}
+.explore .topEcharts .echart1 .title .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb {
+  padding: 0.24rem 0.66666667rem;
+}
+.explore .topEcharts .echart1 .title .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb .content {
+  color: #8a8a8a;
+  font-size: 0.16rem;
+  font-weight: 500;
+}
+.explore .topEcharts .echart1 .title .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb .content p {
+  padding: 0.08rem 0;
+}
+.explore .topEcharts .echart1 .title .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb .content p span {
+  padding-right: 0.53333333rem;
+}
+.explore .topEcharts .echart1 .title .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb .content p span b {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.explore .topEcharts .echart1 .share {
+  border-top: 1px solid #d7d7d7;
+  position: relative;
+  height: 1.46666667rem;
+  padding: 0.26666667rem 0.45333333rem 0.26666667rem 0.26666667rem;
+}
+.explore .topEcharts .echart1 .share p {
+  margin-right: 0.53333333rem;
+  line-height: 0.48rem;
+  font-size: 0.32rem;
+  color: #acacac;
+}
+.explore .topEcharts .echart1 .share div.shares {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.49333333rem 0.33333333rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.explore .topEcharts .echart1 .share div.shares img {
+  height: 0.48rem;
+}

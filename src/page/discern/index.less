@@ -1,0 +1,103 @@
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: " ";
+}
+
+.discern {
+  width: 100%;
+  padding: 0 32/75rem;
+  zoom: -1;
+  .discern-control {
+    width: 100%;
+    .engine-state {
+      width: 100%;
+      .discern-title {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 6px;
+        font-size: 30/75rem;
+        color: #656565;
+        font-weight: 700;
+      }
+      .item {
+        padding-top: 20/75rem;
+        border-radius: 6px;
+        background-color: #fff;
+        overflow: hidden;
+        .item-img {
+          position: relative;
+          height: 384/75rem;
+          overflow: hidden;
+          text-align: center;
+          img {
+            width: 440/75rem;
+            height: 100%;
+          }
+        }
+        .item-form {
+          .form-title {
+            padding: 18/75rem;
+            border-bottom: 2px solid #141414;
+            color: #656565;
+            font-size: 30/75rem;
+          }
+          div {
+            padding: 18/75rem;
+            border-bottom: 1px solid #d7d7d7;
+            zoom: -1;
+            p {
+              color: #252525;
+              font-family: '宋体';
+              line-height: 40/75rem;
+              span {
+                padding-right: 0.53333333rem;
+              }
+            }
+            .discern-time {
+              float: right;
+              text-align: center;
+            }
+          }
+          div:after {
+            content: "020";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+          }
+        }
+        .item-detail {
+          position: relative;
+          height: 110/75rem;
+          padding: 20/75rem 34/75rem 20/75rem 20/75rem;
+          p{
+            margin-right: 40/75rem;
+            line-height: 36/75rem;
+            font-size: 24/75rem;
+            color: #acacac;
+          }
+          div.shares{
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 37/75rem 25/75rem;
+            cursor:pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            img{
+              height: 36/75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.discern:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

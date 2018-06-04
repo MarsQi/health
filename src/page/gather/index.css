@@ -1,0 +1,55 @@
+.gather-control {
+  width: 100%;
+  padding: 0 0.42666667rem 0.37333333rem 0.42666667rem;
+}
+.gather-control .gather-control-con {
+  width: 100%;
+}
+.gather-control .gather-control-con .gather-title {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 6px;
+  font-size: 0.4rem;
+  color: #656565;
+  font-weight: 700;
+}
+.gather-control .gather-control-con .item {
+  border-radius: 6px;
+  background: #fff;
+  overflow: hidden;
+}
+.gather-control .gather-control-con .item .item-img {
+  position: relative;
+  height: 4.10666667rem;
+  overflow: hidden;
+}
+.gather-control .gather-control-con .item .item-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gather-control .gather-control-con .item .item-detail {
+  position: relative;
+  height: 1.46666667rem;
+  padding: 0.26666667rem 0.45333333rem 0.26666667rem 0.26666667rem;
+}
+.gather-control .gather-control-con .item .item-detail p {
+  margin-right: 0.53333333rem;
+  line-height: 0.48rem;
+  font-size: 0.32rem;
+  color: #acacac;
+}
+.gather-control .gather-control-con .item .item-detail div.shares {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.49333333rem 0.33333333rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.gather-control .gather-control-con .item .item-detail div.shares img {
+  height: 0.48rem;
+}
+.gather-control .gather-control-con {
+  margin-top: 0;
+}

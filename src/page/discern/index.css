@@ -1,0 +1,99 @@
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: " ";
+}
+.discern {
+  width: 100%;
+  padding: 0 0.42666667rem;
+  zoom: -1;
+}
+.discern .discern-control {
+  width: 100%;
+}
+.discern .discern-control .engine-state {
+  width: 100%;
+}
+.discern .discern-control .engine-state .discern-title {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 6px;
+  font-size: 0.4rem;
+  color: #656565;
+  font-weight: 700;
+}
+.discern .discern-control .engine-state .item {
+  padding-top: 0.26666667rem;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.discern .discern-control .engine-state .item .item-img {
+  position: relative;
+  height: 5.12rem;
+  overflow: hidden;
+  text-align: center;
+}
+.discern .discern-control .engine-state .item .item-img img {
+  width: 5.86666667rem;
+  height: 100%;
+}
+.discern .discern-control .engine-state .item .item-form .form-title {
+  padding: 0.24rem;
+  border-bottom: 2px solid #141414;
+  color: #656565;
+  font-size: 0.4rem;
+}
+.discern .discern-control .engine-state .item .item-form div {
+  padding: 0.24rem;
+  border-bottom: 1px solid #d7d7d7;
+  zoom: -1;
+}
+.discern .discern-control .engine-state .item .item-form div p {
+  color: #252525;
+  font-family: '宋体';
+  line-height: 0.53333333rem;
+}
+.discern .discern-control .engine-state .item .item-form div p span {
+  padding-right: 0.53333333rem;
+}
+.discern .discern-control .engine-state .item .item-form div .discern-time {
+  float: right;
+  text-align: center;
+}
+.discern .discern-control .engine-state .item .item-form div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.discern .discern-control .engine-state .item .item-detail {
+  position: relative;
+  height: 1.46666667rem;
+  padding: 0.26666667rem 0.45333333rem 0.26666667rem 0.26666667rem;
+}
+.discern .discern-control .engine-state .item .item-detail p {
+  margin-right: 0.53333333rem;
+  line-height: 0.48rem;
+  font-size: 0.32rem;
+  color: #acacac;
+}
+.discern .discern-control .engine-state .item .item-detail div.shares {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.49333333rem 0.33333333rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.discern .discern-control .engine-state .item .item-detail div.shares img {
+  height: 0.48rem;
+}
+.discern:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
